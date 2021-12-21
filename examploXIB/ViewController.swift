@@ -9,11 +9,25 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    override var nibName: String? {
+        "ViewController"
+    }
+    
+    @IBOutlet weak var myButton: UIButton!
+    @IBOutlet weak var lbText: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.backgroundColor = .red
+        
+        myButton.setTitle("Clique aqui", for: .normal)
+        
     }
 
+    @IBAction func onClick(_ sender: Any) {
+        lbText.text = "Aprendendo mais sobre Swift <3"
+    }
+    
+    
 
 }
 

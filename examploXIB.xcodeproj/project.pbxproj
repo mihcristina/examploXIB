@@ -15,6 +15,7 @@
 		683048CA277286E8005AD207 /* examploXIBTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 683048C9277286E8005AD207 /* examploXIBTests.swift */; };
 		683048D4277286E8005AD207 /* examploXIBUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 683048D3277286E8005AD207 /* examploXIBUITests.swift */; };
 		683048D6277286E8005AD207 /* examploXIBUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 683048D5277286E8005AD207 /* examploXIBUITestsLaunchTests.swift */; };
+		683048E327728B7B005AD207 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 683048E227728B7B005AD207 /* ViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		683048CF277286E8005AD207 /* examploXIBUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = examploXIBUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		683048D3277286E8005AD207 /* examploXIBUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = examploXIBUITests.swift; sourceTree = "<group>"; };
 		683048D5277286E8005AD207 /* examploXIBUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = examploXIBUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		683048E227728B7B005AD207 /* ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				683048BB277286E8005AD207 /* Assets.xcassets */,
 				683048BD277286E8005AD207 /* LaunchScreen.storyboard */,
 				683048C0277286E8005AD207 /* Info.plist */,
+				683048E227728B7B005AD207 /* ViewController.xib */,
 			);
 			path = examploXIB;
 			sourceTree = "<group>";
@@ -229,6 +232,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				683048BF277286E8005AD207 /* LaunchScreen.storyboard in Resources */,
+				683048E327728B7B005AD207 /* ViewController.xib in Resources */,
 				683048BC277286E8005AD207 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
